@@ -1,0 +1,91 @@
+/*=======================================================*/
+/*                CSS mobile fixes by NetStrategy        */
+/*=======================================================*/
+
+.us_custom_520d2692 {
+	background: #f8d709
+		url(https://prontodiploma.it/wp-content/uploads/2024/09/Oggetto-vettoriale-avanzato.png)
+		center right no-repeat !important;
+	border-radius: 20px 20px 0 20px;
+	background-size: contain !important;
+  	padding-right: 35px !important;
+  	text-wrap: pretty;
+}
+
+@media (width <= 1024px) {
+	.header_hor
+		.l-header.pos_fixed
+		~ .l-main
+		> .l-section:first-of-type
+		> .l-section-h {
+		padding-top: 5vh !important;
+	}
+	#page-content section.l-section.full_height .g-cols.via_flex.type_default {
+		flex-direction: column;
+		align-items: center;
+
+		.wpb_text_column.hide_on_default.hide_on_laptops + .w-separator,
+		.w-separator + .wpb_text_column.hide_on_default.hide_on_laptops {
+			display: block !important;
+			margin-block: 2rem;
+		}
+	}
+}
+
+@media (width <= 1380px) {
+	.g-cols.via_flex.valign_middle > div > .vc_column-inner,
+	.g-cols.via_grid.valign_middle > .vc_column_container {
+		justify-content: flex-start !important;
+	}
+}
+
+@media (width > 1024px) and (width <= 1380px) {
+	.us_custom_520d2692 {
+		width: 95% !important;
+	}
+}
+
+@media (width > 600px) and (width <= 1024px) {
+	#page-content section.l-section.full_height .vc_col-sm-4 {
+		width: 66.6666% !important;
+	}
+}
+
+@media (width > 600px) and (width <= 680px) {
+	.us_custom_520d2692 {
+		position: absolute;
+		left: calc(-33.333% + 1rem);
+	}
+}
+
+@media (width > 600px) and (width <= 900px) {
+	.us_custom_520d2692 {
+		width: calc(100vw - 4.5vw) !important;
+		position: absolute;
+		left: calc(-33.333% + 4.9vw);
+	}
+	.us_custom_dccda3da {
+		padding-top: 150px;
+	}
+}
+
+@media (width <= 600px) {
+	.header_hor
+		.l-header.pos_fixed
+		~ .l-main
+		> .l-section:first-of-type
+		> .l-section-h {
+		padding-top: 2vh !important;
+	}
+}
+
+@media (width <= 400px) {
+	.us_custom_dccda3da {
+		font-size: 28px !important;
+		line-height: 34px !important;
+	}
+}
+
+/*=======================================================*/
+/*             End of CSS mobile fixes by NetStrategy     */
+/*=======================================================*/
